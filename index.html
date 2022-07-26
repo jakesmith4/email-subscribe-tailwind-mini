@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Email Subscribe</title>
+  </head>
+  <!-- THEN RUN THE FOLLOWING COMMAND IN TERMANAL: npm run watch -->
+  <body class="bg-slate-600">
+    <h1 class="text-3xl text-white text-center py-3">Email Subscribe Card</h1>
+    <div class="card-container h-[80vh] flex items-center justify-center">
+      <div
+        class="card p-3 bg-slate-800 max-w-sm mx-6 rounded-2xl md:flex md:items-center md:max-w-3xl"
+      >
+        <div
+          class="img-container md:w-1/3 overflow-hidden rounded-2xl md:rounded-l-xl md:rounded-r-none"
+        >
+          <img
+            src="./imgs/image.jpg"
+            alt=""
+            class="rounded-2xl md:rounded-l-xl md:rounded-r-none w-full h-72 object-cover hover:scale-110 transition-transform duration-200"
+          />
+        </div>
+        <div class="text-center p-3 md:w-2/3">
+          <h2 class="text-white capitalize p-2 text-xl font-bold">
+            get diet and fitness tips in your inbox
+          </h2>
+          <p class="capitalize text-white text-sm mb-4">
+            eat better and exercise better. sign up for the Diet & Fitness
+            newsletter
+          </p>
+          <form
+            class="space-y-3 md:flex md:items-center md:space-y-0 md:space-x-3"
+          >
+            <input
+              type="email"
+              placeholder="Enter Your Email Address"
+              class="p-2 rounded-md bg-slate-700 text-white w-full text-center"
+            />
+            <button
+              class="bg-green-500 w-full p-2 rounded-md hover:bg-green-600 transition-colors md:w-1/2"
+            >
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
